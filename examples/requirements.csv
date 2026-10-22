@@ -1,0 +1,6 @@
+id,title,required,pattern
+R01,虚构登记材料,yes,虚构登记材料.txt
+R02,虚构资格材料（版本需确认）,yes,虚构资格材料_v*.txt
+R03,虚构授权材料,yes,虚构授权材料.txt
+R04,虚构报价附件,yes,虚构报价附件.txt
+R05,虚构补充说明,no,虚构补充说明.txt
