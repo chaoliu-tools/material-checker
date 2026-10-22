@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "notice": "本报告只是材料存在性辅助，仅按文件名匹配，不读取或理解文档正文。文件存在不代表内容正确、有效、签章齐全或投标合规；不保证中标。所有项目仍需人工核对招标原文及附件正文。",
+  "generated_at": "2026-10-21T09:41:52.260396+00:00",
+  "requirements": "examples/requirements.csv",
+  "materials": "examples/materials",
+  "file_count": 4,
+  "summary": {
+    "found": 2,
+    "review": 1,
+    "missing": 1,
+    "optional_missing": 1
+  },
+  "items": [
+    {
+      "id": "R01",
+      "title": "虚构登记材料",
+      "required": "yes",
+      "pattern": "虚构登记材料.txt",
+      "status": "found",
+      "candidates": [
+        "虚构登记材料.txt"
+      ],
+      "note": ""
+    },
+    {
+      "id": "R02",
+      "title": "虚构资格材料（版本需确认）",
+      "required": "yes",
+      "pattern": "虚构资格材料_v*.txt",
+      "status": "review",
+      "candidates": [
+        "虚构资格材料_v1.txt",
+        "虚构资格材料_v2.txt"
+      ],
+      "note": "多个候选/版本，程序不自动选择最新版本。"
+    },
+    {
+      "id": "R03",
+      "title": "虚构授权材料",
+      "required": "yes",
+      "pattern": "虚构授权材料.txt",
+      "status": "missing",
+      "candidates": [],
+      "note": ""
+    },
+    {
+      "id": "R04",
+      "title": "虚构报价附件",
+      "required": "yes",
+      "pattern": "虚构报价附件.txt",
+      "status": "found",
+      "candidates": [
+        "虚构报价附件.txt"
+      ],
+      "note": ""
+    },
+    {
+      "id": "R05",
+      "title": "虚构补充说明",
+      "required": "no",
+      "pattern": "虚构补充说明.txt",
+      "status": "optional_missing",
+      "candidates": [],
+      "note": ""
+    }
+  ]
+}
