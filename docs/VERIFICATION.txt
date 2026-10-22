@@ -1,0 +1,24 @@
+验证环境：Python 3.9.6
+命令：python3 -B -m unittest discover -s tests -v
+
+test_case_alias_output_cannot_bypass_material_boundary (test_checker.CheckerTests) ... ok
+test_double_slash_output_cannot_bypass_material_boundary (test_checker.CheckerTests) ... ok
+test_existing_output_is_never_overwritten (test_checker.CheckerTests) ... ok
+test_html_escape_and_formula_protection (test_checker.CheckerTests) ... ok
+test_input_symlink_component_rejected (test_checker.CheckerTests) ... ok
+test_invalid_rows_rejected (test_checker.CheckerTests) ... ok
+test_malformed_csv_and_encoding_rejected (test_checker.CheckerTests) ... ok
+test_missing_and_multiple_versions_are_not_passed (test_checker.CheckerTests) ... ok
+test_output_inside_materials_rejected (test_checker.CheckerTests) ... ok
+test_recursive_filename_only_and_no_content_read (test_checker.CheckerTests) ... ok
+test_shared_candidate_requires_review (test_checker.CheckerTests) ... ok
+test_symlinks_rejected (test_checker.CheckerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.416s
+
+OK
+
+最新代码重新运行合成示例：退出码 1（预期，含待处理项）
+状态计数：{"found": 2, "review": 1, "missing": 1, "optional_missing": 1}
+三种报告存在，保存样例与重新运行条目一致，合成材料文件哈希未变化。
