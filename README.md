@@ -82,4 +82,4 @@ python3 -m unittest discover -s tests -v
 
 ## 许可证
 
-许可证待项目所有者确认，详见 `LICENSE-PENDING.md`。源码已公开供查看，但尚未授予正式开源许可证；许可仍待所有者选择和确认。实现使用 Python 标准库，示例为本项目自行编写，未引入第三方代码或文档素材。
+本项目采用 MIT 许可证，完整条款见 `LICENSE`，署名为 `Copyright (c) 2026 chaoliu-tools`。`LICENSE-PENDING.md` 保留为许可状态确认记录。实现使用 Python 标准库，示例为本项目自行编写，未引入第三方代码或文档素材。
