@@ -1,0 +1,7 @@
+﻿id,title,required,pattern,status,candidates,note
+R01,虚构登记材料,yes,虚构登记材料.txt,found,虚构登记材料.txt,
+R02,虚构资格材料（版本需确认）,yes,虚构资格材料_v*.txt,review,"虚构资格材料_v1.txt
+虚构资格材料_v2.txt",多个候选/版本，程序不自动选择最新版本。
+R03,虚构授权材料,yes,虚构授权材料.txt,missing,,
+R04,虚构报价附件,yes,虚构报价附件.txt,found,虚构报价附件.txt,
+R05,虚构补充说明,no,虚构补充说明.txt,optional_missing,,
